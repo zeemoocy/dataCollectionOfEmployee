@@ -1,2 +1,9 @@
 <!--pages/contact/contact.wxml-->
 <text>pages/contact/contact.wxml</text>
+<view>{{msg}}</view>
+<view>{{num}}</view>
+<view>{{isGirl}}</view>
+<view>{{person.age}}</view>
+<view>{{person.name}}</view>
+<view>{{person.height}}</view>
+<view>{{person.weight}}</view>

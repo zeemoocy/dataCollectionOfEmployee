@@ -5,6 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
+    msg:"Hello mina!",
+    num:10000,
+    isGirl:true,
+    person:{
+      age:18,
+      name:'fang',
+      weight:48,
+      height:159
+    }
 
   },
 

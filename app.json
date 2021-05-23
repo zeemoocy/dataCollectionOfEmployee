@@ -34,7 +34,7 @@
     }],
     "position": "bottom",
     "backgroundColor": "#fff",
-    "color": "#ff0094"
+    "color": "#000"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
