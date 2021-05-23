@@ -7,3 +7,30 @@
 <view>{{person.name}}</view>
 <view>{{person.height}}</view>
 <view>{{person.weight}}</view>
+<view>
+  <checkbox checked="{{isGirl}}">isGirl</checkbox>
+</view>
+<view>{{1 + 1}}</view>
+<view>{{'1'+'1'}}</view>
+<view>{{11%2=== 0 ? '偶数':'奇数'}}</view>
+<!--
+  列表循环
+-->
+<view
+wx:for="{{list}}"
+wx:for-index='index'
+wx:for-item='item'
+wx:key='id'>
+  索引：{{index}} -- 值：{{item.name}} -- ID:{{item.id}}
+</view>
+<!-- 
+  对象循环
+ -->
+<view
+wx:for="{{person}}"
+wx:for-index='index'
+wx:for-item='item'
+wx:key='name'
+>
+属性：{{index}} --- 值：{{item}}
+</view>

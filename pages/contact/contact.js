@@ -7,13 +7,27 @@ Page({
   data: {
     msg:"Hello mina!",
     num:10000,
-    isGirl:true,
+    isGirl:false,
     person:{
       age:18,
       name:'fang',
       weight:48,
       height:159
-    }
+    },
+    list:[
+      {
+        id:0,
+        name:'zhubajie'
+      },
+      {
+        id:1,
+        name:'tianpengyuanshuai'
+      },
+      {
+        id:2,
+        name:'wuneng'
+      }
+    ]
 
   },
 
