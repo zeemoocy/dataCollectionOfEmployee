@@ -28,9 +28,20 @@ wx:key='id'>
  -->
 <view
 wx:for="{{person}}"
-wx:for-index='index'
-wx:for-item='item'
+wx:for-index='key'
+wx:for-item='value'
 wx:key='name'
 >
-属性：{{index}} --- 值：{{item}}
+属性：{{key}} --- 值：{{value}}
 </view>
+
+<view wx:if="{{true}}">wx:if=true</view>
+<view wx:if="{{false}}">wx:if=false</view>
+<view>wx:if---wx:elif---wx:else</view>
+<view wx:if="{{false}}">wx:if</view>
+<view wx:elif="{{false}}">wx:elif</view>
+<view wx:else>wx:else</view>
+
+<view>hidden</view>
+<view hidden="{{true}}">hidden=true</view>
+<view hidden="{{false}}">hidden=false</view>
