@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/actionBinding/actionBinding",
     "pages/index/index",
     "pages/contact/contact",
     "pages/personal/personal",
