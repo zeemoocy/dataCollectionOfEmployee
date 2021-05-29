@@ -1,0 +1,5 @@
+<!--pages/demo02/demo02.wxml-->
+<view>pages/demo02/demo02.wxml</view>
+<text selectable="true" decode="true">
+  text &nbsp; &gt; &lt;
+</text>
