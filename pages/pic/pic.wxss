@@ -1,0 +1,7 @@
+/* pages/pic/pic.wxss */
+image{
+  width: 750rpx;
+  height: 1100rpx;
+  box-sizing: border-box;
+  border: 1px solid red ;
+}
