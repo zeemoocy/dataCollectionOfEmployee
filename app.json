@@ -1,8 +1,10 @@
 {
   "pages":[
+    "pages/demo01/demo01",
+    "pages/swiper/swiper",
     "pages/pic/pic",
     "pages/demo02/demo02",
-    "pages/demo01/demo01",
+    
     "pages/actionBinding/actionBinding",
     "pages/index/index",
     "pages/contact/contact",

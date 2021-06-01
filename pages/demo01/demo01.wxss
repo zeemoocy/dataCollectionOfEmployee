@@ -7,3 +7,8 @@ view{
   font-size-adjust: initial;
   font-size: 5vmax;
 }
+navigator{
+  color:"#ff00ff";
+  background-color: khaki;
+  height: 80rpx;
+}

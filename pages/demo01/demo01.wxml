@@ -1,1 +1,5 @@
 <view>rpx</view>
+<navigator open-type="navigate" url="/pages/swiper/swiper">轮播图页面</navigator>
+<navigator open-type="redirect" url="/pages/swiper/swiper">轮播图页面 redirect</navigator>
+<navigator open-type="switchTab" url="/pages/index/index">轮播图页面 switchTab</navigator>
+<navigator open-type="reLaunch" url="/pages/index/index">轮播图页面 reLaunch</navigator>
